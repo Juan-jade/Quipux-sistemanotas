@@ -1,2 +1,5 @@
 # Quipux-sistemanotas
-jjsjsjsjs
+Bueno, nosotros hicimos el trabajo con claude AI y lo ejecutamos Visual Studio.
+Este programa es un Sistema de Gestión Académica para la UCO hecho en Java donde realiza el proceso de registrar las notas de un estudiante. Está construida en base a la Programación Orientada a Objetos: existe una clase  Persona que concentra los datos comunes (nombre y cédula) protegidos mediante encapsulamiento (atributos privados con getters/setters), de la cual heredan Estudiante y Profesor, cada uno agregando sus propios atributos y comportamientos (carrera y notas en un ArrayList dinámico para el estudiante; materia y la lógica para ingresar calificaciones en el profesor). El programa, manejado desde la clase Main con Scanner, primero registra los datos del profesor y del estudiante, luego el profesor ingresa la cantidad de notas que se le indique (validando que estén entre 0.0 y 5.0), y al final el sistema calcula automáticamente el promedio de esas notas y determina el estado académico del estudiante, "Aprobado" si el promedio es mayor o igual a 3.0, "No Aprobado" en caso contrario, mostrando todo en un resumen final en la terminal.
+Juan Pablo Gomez Cardona
+Alejandro Montoya Aristizabal
